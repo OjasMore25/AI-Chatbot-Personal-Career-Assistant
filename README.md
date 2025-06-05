@@ -22,14 +22,14 @@ This intelligent chatbot represents **Ojas Ganesh More** and answers questions r
 ## 📁 Project Structure
 
 project/
-│
-├── app.py # Main application script
-├── .env # Environment variables for OpenAI + Pushover
-├── me/
-│ ├── faiss_index/ # Contains index.faiss and index.pkl
-│ ├── linkedin.pdf # LinkedIn profile used for RAG
-│ └── summary.txt # Manually written summary of Ojas
-└── README.md # Project documentation
+-│
+-├── app.py # Main application script
+-├── .env # Environment variables for OpenAI + Pushover
+-├── me/
+-│ ├── faiss_index/ # Contains index.faiss and index.pkl
+-│ ├── linkedin.pdf # LinkedIn profile used for RAG
+-│ └── summary.txt # Manually written summary of Ojas
+-└── README.md # Project documentation
 
 
 
@@ -52,9 +52,9 @@ You can create a `requirements.txt`, but here are the essentials:
 
 In the project root, create a `.env` file with the following contents:
 
-OPENAI_API_KEY=your-openai-key
-PUSHOVER_TOKEN=your-pushover-token
-PUSHOVER_USER=your-pushover-user-key
+-OPENAI_API_KEY=your-openai-key
+-PUSHOVER_TOKEN=your-pushover-token
+-PUSHOVER_USER=your-pushover-user-key
 
 
 ---
@@ -115,10 +115,10 @@ Start a session and chat:
 
 ---
 
-## 💡 Future Improvements
+## 💡 
 
-- Add support for more document types (e.g. resume, blog posts)  
-- Integrate with Hugging Face Spaces for easy deployment  
+- Added support for more document types (e.g. resume, blog posts)  
+- Integrated with Hugging Face Spaces for easy deployment  
 - Auto-email session summary to user  
 
 ---
